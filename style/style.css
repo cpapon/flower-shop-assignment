@@ -1,3 +1,4 @@
+/* Body Universal Style */
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +8,12 @@ body {
     font-family: "lato", sans-serif;
 }
 
+/* Start Header Section */
+
 header {
     background: rgba(229, 84, 115, 0.10);
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -17,24 +21,26 @@ nav {
     margin: 0px 200px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     list-style: none;
     text-decoration: none;
 }
-nav ul li{
+
+nav ul li {
     padding: 20px 20px;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
-    color:black;
+    color: black;
     font-weight: 700;
 }
 
-nav ul button{
+nav ul button {
     padding: 5px 10px;
 }
+
 .header-container {
     display: flex;
     padding: 20px 200px 0px 200px;
@@ -78,10 +84,13 @@ nav ul button{
     width: 350px;
     align-items: right;
 }
-
+/* Ending Header Section Style */
+/* Section Margin Padding for Main Section*/
 section {
     padding: 0px 200px 0px 200px;
 }
+
+/* Start Featured Pink Container Style */
 
 .featured-container {
     text-align: center;
@@ -106,8 +115,7 @@ section {
 }
 
 
-
-.feautred-pink-container {
+.featured-pink-container {
     display: flex;
     gap: 20px;
     justify-content: space-between;
@@ -118,21 +126,23 @@ section {
     height: 350px;
     background-color: rgba(167, 33, 98, 0.15);
     border-radius: 150px 150px 0px 0px;
-    
+
 }
-.pink-flower-2{
+
+.pink-flower-2 {
     width: 300px;
     height: 350px;
     background: rgba(5, 151, 160, 0.15);
     border-radius: 150px 150px 0px 0px;
-    
+
 }
-.pink-flower-3{
+
+.pink-flower-3 {
     width: 300px;
     height: 350px;
-    background-color: rgba(71, 125, 17, 0.15);    
+    background-color: rgba(71, 125, 17, 0.15);
     border-radius: 150px 150px 0px 0px;
-    
+
 }
 
 .pink-flower-1 img {
@@ -155,7 +165,9 @@ section {
     margin-top: 70px;
     margin-left: 50px;
 }
+/* End Featured Pink Container Style */
 
+/* Start Customer Support Container Style */
 .customer-support {
     height: 220px;
     border-radius: 8px;
@@ -179,6 +191,9 @@ section {
     font-weight: 600;
     line-height: 35px;
 }
+/* End Customer Support Container Style */
+
+/* Start Full width Hot Deal Container Style */
 
 section.hot-deal-section {
     padding: 0px;
@@ -204,17 +219,19 @@ section.hot-deal-section {
     font-weight: 800;
 }
 
-.hot-deal-column1 span{
+.hot-deal-column1 span {
     color: #E55473;
 }
-.hot-deal-column1 p{
+
+.hot-deal-column1 p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin: 25px 0px;
 }
-button.hot-deal-btn{
+
+button.hot-deal-btn {
     padding: 20px 40px;
 }
 
@@ -222,9 +239,9 @@ button.hot-deal-btn{
     width: 1000%;
     text-align: left;
 }
+/* End Full width Hot Deal Container Style */
 
-
-
+/* Start Social Media Container Style */
 .social-container {
     text-align: center;
     margin-top: 100px;
@@ -264,7 +281,9 @@ button.hot-deal-btn{
     max-width: 100%;
     max-height: 100%;
 }
+/* End Social Media Container Style */
 
+/* Start Latest Deal  Container Style */
 .latest-deal-container {
     background-image: url('../Assets/Rectangle9.png');
     height: 40vh;
@@ -293,6 +312,8 @@ h2.social-title {
     margin: 10px 0px 40px 0px;
 }
 
+
+
 .subscribe {
     width: 100%;
 }
@@ -315,7 +336,9 @@ input[type='email'] {
 .btn-subscribe {
     padding: 10px 20px;
 }
+/* End Latest Deal  Container Style */
 
+/* Start Footer  Section Style */
 footer {
     background-color: #111010;
 }
@@ -350,3 +373,5 @@ p.footer-copyright {
     font-weight: 400;
     padding-bottom: 100px;
 }
+
+/* End Footer  Section Style */
