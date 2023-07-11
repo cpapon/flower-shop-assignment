@@ -55,9 +55,13 @@ header {
     align-items: right;
 }
 
+section {
+    padding: 0px 200px 0px 200px;
+}
+
 .featured-container {
     text-align: center;
-    margin-top: 170px;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
@@ -73,4 +77,117 @@ header {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    width: 65%;
+    margin: auto;
+}
+
+
+
+.feautred-pink-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.pink-flower {
+    width: 300px;
+    height: 350px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 150px 150px 0px 0px;
+    vertical-align: middle;
+}
+
+.pink-flower img {
+    max-width: 80%;
+    max-height: 80%;
+    margin-top: 70px;
+    margin-left: 35px;
+}
+
+.customer-support {
+    height: 220px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.customer-care img {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.customer-care p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+
+.social-container {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.social-container h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.social-container p {
+    color: #797979;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 65%;
+    margin: auto;
+}
+
+.social-flower-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+}
+
+.social-flower {
+    width: 300px;
+    height: 250px;
+}
+
+.social-flower img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.latest-deal-container{
+    display: flex;
+    background-image: url('../Assets/Rectangle9.png');
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.latest-deals{
+    
+    
+
+
+}
+
+
+.btn-subscribe{
+    padding: 10px 20px;
 }
